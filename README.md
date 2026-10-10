@@ -1,5 +1,7 @@
 # RxJS Subject Playground
 
+https://paulnaber.github.io/rxjs-subject-playground/
+
 A small Angular app for comparing an observer-list Subject with RxJS `BehaviorSubject`. Subscribe with or without the current value, emit values, and inspect the service code and event log.
 
 ```bash
