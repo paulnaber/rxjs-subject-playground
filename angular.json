@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "frontend-reactivity-playground": {
+    "rxjs-subject-playground": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -54,6 +54,13 @@
               ],
               "outputHashing": "all"
             },
+            "github-pages": {
+              "baseHref": "/rxjs-subject-playground/",
+              "outputPath": {
+                "base": "docs",
+                "browser": ""
+              }
+            },
             "development": {
               "optimization": false,
               "extractLicenses": false,
@@ -66,10 +73,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "frontend-reactivity-playground:build:production"
+              "buildTarget": "rxjs-subject-playground:build:production"
             },
             "development": {
-              "buildTarget": "frontend-reactivity-playground:build:development"
+              "buildTarget": "rxjs-subject-playground:build:development"
             }
           },
           "defaultConfiguration": "development"
