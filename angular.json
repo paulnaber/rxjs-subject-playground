@@ -22,6 +22,16 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "observer-list-subject.service.ts",
+                "input": "src/app",
+                "output": "source-code"
+              },
+              {
+                "glob": "behavior-subject.service.ts",
+                "input": "src/app",
+                "output": "source-code"
               }
             ],
             "styles": [
